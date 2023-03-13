@@ -16,7 +16,7 @@ const routes: Routes = [
         remoteName: 'mfe1',
         // remoteEntry: 'http://localhost:4201/remoteEntry.js',
         exposedModule: './ProductRegistryModule',
-      }).then((m) => m.FlightsModule),
+      }).then((m) => m.ProductRegistryModule),
   },
 ];
 
